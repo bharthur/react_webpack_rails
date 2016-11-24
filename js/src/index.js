@@ -14,11 +14,11 @@ class RWR {
     this.version = version;
 
     this.registerComponent = react.registerComponent;
+    this.registerComponents = react.registerComponents;
     this.getComponent = react.getComponent;
     this.createComponent = react.createComponent;
     this.renderComponent = react.renderComponent;
     this.unmountComponent = react.unmountComponent;
-    this.renderComponents = react.renderComponents;
     this.mountNodes = nodes.mountNodes;
     this.unmountNodes = nodes.unmountNodes;
   }
