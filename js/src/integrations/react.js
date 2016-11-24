@@ -6,6 +6,7 @@ class ReactIntegration {
   constructor() {
     this.components = {};
     this.registerComponent = this.registerComponent.bind(this);
+    this.registerComponents = this.registerComponents.bind(this);
     this.getComponent = this.getComponent.bind(this);
     this.createComponent = this.createComponent.bind(this);
     this.renderComponent = this.renderComponent.bind(this);
