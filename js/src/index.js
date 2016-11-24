@@ -18,7 +18,7 @@ class RWR {
     this.createComponent = react.createComponent;
     this.renderComponent = react.renderComponent;
     this.unmountComponent = react.unmountComponent;
-
+    this.renderComponents = react.renderComponents;
     this.mountNodes = nodes.mountNodes;
     this.unmountNodes = nodes.unmountNodes;
   }
