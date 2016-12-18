@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/netguru/react_webpack_rails.git"
+    "url": "git+https://github.com/bharthur/react_webpack_rails.git"
   },
   "keywords": [
     "react",
@@ -24,9 +24,9 @@
   "author": "Rafał Gawlik",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/netguru/react_webpack_rails/issues"
+    "url": "https://github.com/bharthur/react_webpack_rails/issues"
   },
-  "homepage": "https://github.com/netguru/react_webpack_rails#readme",
+  "homepage": "https://github.com/bharthur/react_webpack_rails#readme",
   "dependencies": {
     "babel-polyfill": "^6.3.0",
     "react": "^15.0.0",
