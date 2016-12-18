@@ -1,6 +1,6 @@
 {
   "name": "recroup-webpack-rails",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Js part of react_webpack_rails - webpack based React & Rails integration.",
   "main": "js/lib/index.js",
   "files": [

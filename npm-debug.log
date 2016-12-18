@@ -1,0 +1,132 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/7.0.0/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@3.10.8
+3 info using node@v7.0.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/shivbharthur/Dropbox/recroup/react_webpack_rails',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/shivbharthur/.npm/recroup-webpack-rails/0.0.1/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/shivbharthur/.npm correctMkdir not in flight; initializing
+10 info lifecycle recroup-webpack-rails@0.0.1~prepublish: recroup-webpack-rails@0.0.1
+11 verbose lifecycle recroup-webpack-rails@0.0.1~prepublish: unsafe-perm in lifecycle true
+12 verbose lifecycle recroup-webpack-rails@0.0.1~prepublish: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/shivbharthur/Dropbox/recroup/react_webpack_rails/node_modules/.bin:/usr/local/Cellar/node/7.0.0/bin:/Users/shivbharthur/.rvm/gems/ruby-2.3.0/bin:/Users/shivbharthur/.rvm/gems/ruby-2.3.0@global/bin:/Users/shivbharthur/.rvm/rubies/ruby-2.3.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/shivbharthur/.rvm/bin
+13 verbose lifecycle recroup-webpack-rails@0.0.1~prepublish: CWD: /Users/shivbharthur/Dropbox/recroup/react_webpack_rails
+14 silly lifecycle recroup-webpack-rails@0.0.1~prepublish: Args: [ '-c', 'npm run compile' ]
+15 silly lifecycle recroup-webpack-rails@0.0.1~prepublish: Returned: code: 0  signal: null
+16 verbose tar pack [ '/Users/shivbharthur/.npm/recroup-webpack-rails/0.0.1/package.tgz',
+16 verbose tar pack   '/Users/shivbharthur/Dropbox/recroup/react_webpack_rails' ]
+17 verbose tarball /Users/shivbharthur/.npm/recroup-webpack-rails/0.0.1/package.tgz
+18 verbose folder /Users/shivbharthur/Dropbox/recroup/react_webpack_rails
+19 verbose addLocalTarball adding from inside cache /Users/shivbharthur/.npm/recroup-webpack-rails/0.0.1/package.tgz
+20 verbose correctMkdir /Users/shivbharthur/.npm correctMkdir not in flight; initializing
+21 silly cache afterAdd recroup-webpack-rails@0.0.1
+22 verbose afterAdd /Users/shivbharthur/.npm/recroup-webpack-rails/0.0.1/package/package.json not in flight; writing
+23 verbose correctMkdir /Users/shivbharthur/.npm correctMkdir not in flight; initializing
+24 verbose afterAdd /Users/shivbharthur/.npm/recroup-webpack-rails/0.0.1/package/package.json written
+25 silly publish { name: 'recroup-webpack-rails',
+25 silly publish   version: '0.0.1',
+25 silly publish   description: 'Js part of react_webpack_rails - webpack based React & Rails integration.',
+25 silly publish   main: 'js/lib/index.js',
+25 silly publish   files: [ 'js/lib' ],
+25 silly publish   scripts:
+25 silly publish    { compile: 'babel --presets es2015 -d js/lib/ js/src/',
+25 silly publish      prepublish: 'npm run compile',
+25 silly publish      test: 'mocha js/test --ui bdd --recursive --require babel-core/register' },
+25 silly publish   repository:
+25 silly publish    { type: 'git',
+25 silly publish      url: 'git+https://github.com/bharthur/react_webpack_rails.git' },
+25 silly publish   keywords: [ 'react', 'rails', 'webpack', 'react_webpack_rails' ],
+25 silly publish   author: { name: 'Rafał Gawlik' },
+25 silly publish   license: 'MIT',
+25 silly publish   bugs: { url: 'https://github.com/bharthur/react_webpack_rails/issues' },
+25 silly publish   homepage: 'https://github.com/bharthur/react_webpack_rails#readme',
+25 silly publish   dependencies:
+25 silly publish    { 'babel-polyfill': '^6.3.0',
+25 silly publish      react: '^15.0.0',
+25 silly publish      'react-dom': '^15.0.0' },
+25 silly publish   devDependencies:
+25 silly publish    { 'babel-cli': '^6.10.0',
+25 silly publish      'babel-core': '^6.10.0',
+25 silly publish      'babel-preset-es2015': '^6.9.0',
+25 silly publish      'babel-preset-react': '^6.11.0',
+25 silly publish      eslint: '^2.13.0',
+25 silly publish      'eslint-config-airbnb': '^9.0.0',
+25 silly publish      'eslint-plugin-react': '^5.2.0',
+25 silly publish      expect: '^1.20.0',
+25 silly publish      history: '^3.0.0',
+25 silly publish      mocha: '^2.5.0' },
+25 silly publish   readme: '# ReactWebpackRails\n[![Travis CI](https://travis-ci.org/netguru/react_webpack_rails.svg?branch=master)](https://travis-ci.org/netguru/react_webpack_rails)\n\n#### Rails - Webpack setup with React integration.\nThis gem provides easy and convenient way to build modern JavaScript stack on top of Rails applications using [Webpack](http://webpack.github.io/) and [React](https://facebook.github.io/react/).\n\n### Development branch!\nSee [0.4-stable](https://github.com/netguru/react_webpack_rails/tree/0.4-stable) for latest release.\n\n## Features\n* [Install Generator](https://github.com/netguru/react_webpack_rails/blob/master/docs/install_generator.md) for quick [Webpack](http://webpack.github.io/) setup.\n* Integrated [react-hot-loader](https://github.com/gaearon/react-hot-loader)\n* ES6/7 support with [babeljs](https://babeljs.io/).\n* Node.js based [server-side JavaScript execution](https://github.com/netguru/react_webpack_rails/blob/master/docs/server_side_rendering.md).\n* [React](https://facebook.github.io/react/) integration with server prerender option.\n* [React-router](https://github.com/rackt/react-router) integration.\n\n### Plugins:\n* [rwr-alt](https://github.com/netguru/rwr-alt) plugin that makes it possible to populate and share Alt stores between react component located in different parts of rails views.\n* [rwr-redux](https://github.com/netguru/rwr-redux) allows to use redux state containers in a rails views.\n* [rwr-react_router](https://github.com/netguru/rwr-react_router) react-router integration.\n* [rwr-view_helpers](https://github.com/netguru/rwr-view_helpers) handy view helpers.\n\n## Installation\n\nAdd this line to your application\'s Gemfile:\n\n```ruby\ngem \'react_webpack_rails\'\n```\n\nExecute:\n\n    $ bundle\n\nThen run installation:\n\n    $ rails g react_webpack_rails:install\n\n*read more about [`install  generator`](https://github.com/netguru/react_webpack_rails/blob/master/docs/install_generator.md)*\n\n### Babel\n\nBy default, `react-webpack-rails` uses Babel Stage 1 - Proposal. If you want to change the stage, you can do so in the `.babelrc` file. It is however not recommended to use Stage 0 in a production app, because the features present there can be dropped, which would break your application.\n\n## Usage\n##### Check [docs](https://github.com/netguru/react_webpack_rails/tree/master/docs) for detailed api description.\n#### to use hot-reloading add partial in your application.html.erb to `<body>`:\n(it\'s not needed when you want to use just webpack in watch mode without hot-reloading)\n```erb\n<%= render \'layouts/react_hot_assets\' %>\n```\n\n#### Register component in index.js\n\n```js\nimport Component from \'./components/some-component\';\nRWR.registerComponent(\'customComponentName\', Component);\n```\n\n#### Use it in rails view\n\n```erb\n<%= react_component(\'customComponentName\', { user: User.last }) %>\n```\n\n#### Use it in javascript file\n\n```js\nconst element = $(\'#my-element\');\nRWR.renderComponent(\'customComponentName\', {user_id: 1}, element);\n```\n\n#### Render component in controller\n\n```ruby\ndef action_name\n  render react_component: \'customComponentName\', props: { user_id: 1 }\nend\n```\n\n### Development environment\nRun webpack in watch mode using script:\n\n    $ npm start\n\nRun webpack in hot-auto-reloading mode using script (to use it you have to add `react_hot_assets` partial as mentioned before):\n\n    $ npm run start-hot-dev\n\nIf you are using server side render in components *(it\'s enabled by default in generated example)*, run node server:\n\n    $ npm run rwr-node-dev-server\n\n### Production environment\nRun webpack in production mode before compiling assets using script:\n\n    $ npm run build\n\nIf you are using server side render *(it\'s enabled by default in generated example)*, run node server:\n\n    $ npm run rwr-node-server\n\n#### Deployment\nCheck [docs/deployment.md](docs/deployment.md)\n\n## Contributing\n\nSee the [contribution guide](https://github.com/netguru/react_webpack_rails/blob/master/CONTRIBUTING.md).\n\n## License\n\nThe gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).\n',
+25 silly publish   readmeFilename: 'README.md',
+25 silly publish   gitHead: 'b30e117159d131561676bd2a03811b263f6b467d',
+25 silly publish   _id: 'recroup-webpack-rails@0.0.1',
+25 silly publish   _shasum: 'f91af9ab8688be19ea76c890c374569f6a973273',
+25 silly publish   _from: '.' }
+26 verbose getPublishConfig undefined
+27 silly mapToRegistry name recroup-webpack-rails
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry data Result {
+30 silly mapToRegistry   raw: 'recroup-webpack-rails',
+30 silly mapToRegistry   scope: null,
+30 silly mapToRegistry   escapedName: 'recroup-webpack-rails',
+30 silly mapToRegistry   name: 'recroup-webpack-rails',
+30 silly mapToRegistry   rawSpec: '',
+30 silly mapToRegistry   spec: 'latest',
+30 silly mapToRegistry   type: 'tag' }
+31 silly mapToRegistry uri https://registry.npmjs.org/recroup-webpack-rails
+32 verbose publish registryBase https://registry.npmjs.org/
+33 silly publish uploading /Users/shivbharthur/.npm/recroup-webpack-rails/0.0.1/package.tgz
+34 verbose request uri https://registry.npmjs.org/recroup-webpack-rails
+35 verbose request sending authorization for write operation
+36 info attempt registry request try #1 at 11:09:35 PM
+37 verbose request using bearer token for auth
+38 verbose request id 66fdd2aa62036bcd
+39 http request PUT https://registry.npmjs.org/recroup-webpack-rails
+40 http 403 https://registry.npmjs.org/recroup-webpack-rails
+41 verbose headers { 'content-type': 'application/json',
+41 verbose headers   'cache-control': 'max-age=300',
+41 verbose headers   'content-length': '95',
+41 verbose headers   'accept-ranges': 'bytes',
+41 verbose headers   date: 'Sun, 18 Dec 2016 04:09:37 GMT',
+41 verbose headers   via: '1.1 varnish',
+41 verbose headers   connection: 'keep-alive',
+41 verbose headers   'x-served-by': 'cache-ord1724-ORD',
+41 verbose headers   'x-cache': 'MISS',
+41 verbose headers   'x-cache-hits': '0',
+41 verbose headers   'x-timer': 'S1482034176.393989,VS0,VE674',
+41 verbose headers   vary: 'Accept-Encoding' }
+42 verbose request invalidating /Users/shivbharthur/.npm/registry.npmjs.org/recroup-webpack-rails on PUT
+43 error publish Failed PUT 403
+44 verbose stack Error: "You cannot publish over the previously published version 0.0.1." : recroup-webpack-rails
+44 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+44 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+44 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+44 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+44 verbose stack     at emitTwo (events.js:106:13)
+44 verbose stack     at Request.emit (events.js:191:7)
+44 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1044:10)
+44 verbose stack     at emitOne (events.js:96:13)
+44 verbose stack     at Request.emit (events.js:188:7)
+44 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:965:12)
+45 verbose statusCode 403
+46 verbose pkgid recroup-webpack-rails
+47 verbose cwd /Users/shivbharthur/Dropbox/recroup/react_webpack_rails
+48 error Darwin 16.1.0
+49 error argv "/usr/local/Cellar/node/7.0.0/bin/node" "/usr/local/bin/npm" "publish"
+50 error node v7.0.0
+51 error npm  v3.10.8
+52 error code E403
+53 error "You cannot publish over the previously published version 0.0.1." : recroup-webpack-rails
+54 error If you need help, you may report this error at:
+54 error     <https://github.com/npm/npm/issues>
+55 verbose exit [ 1, true ]
